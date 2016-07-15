@@ -1,0 +1,75 @@
+/*index page CSS */
+.heading{
+    font-style: oblique;
+    color: #ce4545;
+    text-align:center;
+}
+.heading h1{
+    vertical-align:middle;
+}
+.companyLogo{
+    background: url('http://www1.macys.com/web20/assets/img/nav/global-icons.png') -27px -124px;width: 268px;
+    height: 73px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    display:inline-block;
+}
+.navigation-bar nav {
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    font-size: 20px;
+}
+nav a{
+    margin-right:25px;
+    color:black;
+}
+
+/*result page CSS */
+.outerDiv{
+    width:100%;
+}
+.infoDiv{
+    width:50%;
+    height:auto;
+    padding:10px;
+    margin:0 25% 0 25%;
+    background-color:lightgrey;
+    overflow:hidden;
+    font-size:18px;
+}
+.locDiv{
+    width:40%;
+    float:left;
+    display:inline-block;
+}
+.whenDiv{
+    width:60%;
+    float:left;
+    display:inline-block;
+}
+.timeDiv{
+    margin:1% 0 0 15%;
+}
+.ancorDiv{
+    clear:left;
+    padding-top:10px;
+    font-size: 20px;
+    float:right;
+}
+.trial{
+    text-decoration: none;
+    color: #b01d0a;
+}
+/* lightbox changes */
+.storeNm{
+    color: #b01d0a;
+    font-size: 20px;
+    margin-bottom:5px;
+}
+.otherinfo{
+    font-size:16px;
+    margin-top:10px;
+}
